@@ -1,6 +1,7 @@
 # Maplestory Simulator
 
 一个枫之谷纸娃娃软件
+[在线预览](https://sunjiezhu.github.io/MapleStory_Simulator/simulator/v1/)
 数据接口来源 [maplestory.io](https://maplestory.io/)
 
 ---
