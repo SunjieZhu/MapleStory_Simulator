@@ -24,8 +24,12 @@ const setupWzCascaderOptions = async () => {
 }
 
 setupWzCascaderOptions()
+
+const wzChange = () => {
+    window.location.reload()
+}
 </script>
 
 <template>
-    <el-cascader v-model="wzStore.wzInfo" :options="wzCascaderOptions" />
+    <el-cascader v-model="wzStore.wzInfo" :options="wzCascaderOptions" @change="wzChange" />
 </template>
